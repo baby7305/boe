@@ -60,6 +60,8 @@ spring:
             hibernate.generate_statistics: true
             hibernate.cache.region.factory_class: io.github.jhipster.config.jcache.NoDefaultJCacheRegionFactory
     data:
+        mongodb:
+            uri: mongodb://localhost:27017/test
         elasticsearch:
             cluster-name:
             cluster-nodes:
